@@ -119,7 +119,7 @@ class MyApp extends State<MainPage> {
       await flutterTts.setLanguage("th-TH");
       await flutterTts.setPitch(1);
       print(await flutterTts.getVoices);
-      await flutterTts.speak("แก้ปวดลดไข้ รับประทานครั้งละ 2 เม็ด วันละ 1 ครั้ง หลังอาหารเช้า");
+      await flutterTts.speak("$qrCode");
     }
 }
 
