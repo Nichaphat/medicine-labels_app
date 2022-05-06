@@ -53,14 +53,6 @@ class MyApp extends State<MainPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              // Text(
-              //   'Scan Result',
-              //   style: TextStyle(
-              //     fontSize: 16,
-              //     color: Colors.black,
-              //     fontWeight: FontWeight.bold,
-              //   ),
-              // ),
               Positioned(
                 top: 0,
                 left: 0,
